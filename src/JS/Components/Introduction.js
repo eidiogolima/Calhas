@@ -6,7 +6,7 @@ import Garantia from '../../assets/icons/garantia.svg';
 import Servico from '../../assets/img/servico-1.jpg';
 const Introduction = () => {
   return (
-    <section className="py-5 cor-b-3">
+    <section className="py-lg-6 py-5 cor-b-2">
       <div className="container-sm-fluid container-lg text-start mt-2">
         <div className="row d-flex align-items-center">
           <div className="col-md">
@@ -15,29 +15,29 @@ const Introduction = () => {
             <div className="row">
               <div className="col">
                 <div className="row">
-                  <div className="col">
-                    <div className="">
-                      <img  className="img-fluid mb-1" src={Garantia} alt="" />
+                  <div className="col-sm ">
+                    <div className="mb-2">
+                      <img  className="img-fluid mb-3" width="50px" src={Garantia} alt="" />
                       <p>Selo de Serviço grantido </p>
                     </div>
 
-                    <div className="">
-                      <img className='mb-1' src={Tempo} alt="" />
+                    <div className="mb-2">
+                      <img className='mb-3' width="50px" src={Tempo} alt="" />
                       <p>
                         Economize tempo contratando profissionais capacitados
                       </p>
                     </div>
                   </div>
 
-                  <div className="col">
-                    <div className="">
+                  <div className="col ">
+                    <div className="mb-2">
                       <div >
-                        <img className='mb-1' src={Sorriso} alt="" />
+                        <img className='mb-3' width="50px" src={Sorriso} alt="" />
                         <p>+1000 clientes satisfeitos </p>
                       </div>
 
-                      <div className="">
-                        <img className='mb-1 img-fluid' src={Velocidade} alt="" />
+                      <div className="mb">
+                        <img className='mb-3 img-fluid' width="50px" src={Velocidade} alt="" />
                         <p>99,9% dos serviços entregues dentro do prazo</p>
                       </div>
                     </div>

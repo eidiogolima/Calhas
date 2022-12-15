@@ -3,7 +3,7 @@ import Logo from '../../assets/logo.svg';
 
 const Header = () => {
   return (
-    <header className='cor-b-2'>
+    <header className='cor-b-1'>
       <nav className="navbar navbar-expand-md bg-light d-flex container-md-fluid container-lg p-2 justify-content-between">
         <a href="/">
           <img src={Logo} alt="" />

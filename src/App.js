@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./JS/Global/Footer";
 import Header from "./JS/Global/Header";
 import Home from "./JS/Pages/Home";
 
@@ -12,6 +13,7 @@ function App() {
           <Route path ='/' element = {<Home/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
