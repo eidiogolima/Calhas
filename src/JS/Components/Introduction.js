@@ -6,12 +6,12 @@ import Garantia from '../../assets/icons/garantia.svg';
 import Servico from '../../assets/img/servico-1.jpg';
 const Introduction = () => {
   return (
-    <section className="py-5">
-      <div className="container text-start  mt-2">
+    <section className="py-5 cor-b-3">
+      <div className="container-sm-fluid container-lg text-start mt-2">
         <div className="row d-flex align-items-center">
           <div className="col-md">
-            <p className='text-secondary'>Desde 1990 realizando trabalhos.</p>
-            <h1 className='mb-4 fs-1 h1'>Porque nos contratar?</h1>
+            <span className='cor-7 text-secondary-l '>Desde 1990 realizando trabalhos.</span>
+            <h1 className='mb-4 fs-1 h1'>Porque nos contratar ?</h1>
             <div className="row">
               <div className="col">
                 <div className="row">
@@ -30,14 +30,14 @@ const Introduction = () => {
                   </div>
 
                   <div className="col">
-                    <div className="col">
+                    <div className="">
                       <div >
                         <img className='mb-1' src={Sorriso} alt="" />
                         <p>+1000 clientes satisfeitos </p>
                       </div>
 
                       <div className="">
-                        <img className='mb-1' src={Velocidade} alt="" />
+                        <img className='mb-1 img-fluid' src={Velocidade} alt="" />
                         <p>99,9% dos serviços entregues dentro do prazo</p>
                       </div>
                     </div>
@@ -47,8 +47,8 @@ const Introduction = () => {
             </div>
           </div>
 
-          <div className="col">
-            <img src={Servico} alt="" />
+          <div className="col-lg col-lg-auto">
+            <img className='d-none d-lg-block' src={Servico} alt="" />
           </div>
         </div>
       </div>
